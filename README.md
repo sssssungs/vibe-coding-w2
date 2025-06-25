@@ -1,5 +1,7 @@
 # 온라인 쇼핑 최저가 검색 챗봇 Agent
 
+이 브랜치는 test_1(GitHub Actions 테스트)용입니다.
+
 [![테스트 자동화](https://github.com/sssssungs/vibe-coding-w2/actions/workflows/test.yml/badge.svg)](https://github.com/sssssungs/vibe-coding-w2/actions/workflows/test.yml)
 
 ## 프로젝트 개요
