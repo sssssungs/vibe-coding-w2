@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# TASK-003 개발 계획 (LangGraph Agent 구현)
+
+## 구현 항목
+1. LangGraph 기반 React Agent 생성
+2. Gemini LLM 연동
+3. DuckDuckGo Search Tool 연동
+4. Agent 단일턴(Stateless) 동작 구현
+5. Agent 서비스화 및 API 연동
+6. (옵션) LangSmith 연동 및 모니터링
+
+## 기술 스택 및 라이브러리
+- Python (3.11)
+- LangGraph (`langgraph`)
+- Gemini API (`gemini_webapi`)
+- DuckDuckGo Search (`duckduckgo_search`)
+- (옵션) LangSmith
+
+## 개발 계획
+1. LangGraph 및 필수 라이브러리 설치
+2. DuckDuckGo Search Tool 함수 정의 및 테스트
+3. Gemini LLM 연동 및 프롬프트 테스트
+4. LangGraph의 prebuilt create_react_agent로 Agent 생성
+5. Agent에 DuckDuckGo Tool, Gemini LLM 연결
+6. 단일턴(Stateless) Agent 동작 확인 (테스트 코드 작성)
+7. Agent를 서비스 레이어로 래핑
+8. API(서비스)에서 Agent 호출 연동
+9. (옵션) LangSmith 연동 및 모니터링 설정
+
+---
+- 소스코드는 본 룰 파일에 포함하지 않음
+- 각 단계별 최소 단위로 개발 및 테스트 진행

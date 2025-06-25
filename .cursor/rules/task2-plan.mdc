@@ -1,0 +1,30 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# TASK-002 FastAPI 백엔드 기본 구조 개발 계획
+
+## 구현 항목
+1. FastAPI 앱 엔트리포인트(main.py) 생성
+2. API 라우터 구조 설계 및 routes 디렉토리 구성
+3. 기본 API 엔드포인트 구현 (예: /, /health)
+4. Chat API 엔드포인트 스켈레톤 구현 (POST /search 등)
+5. 동기 방식(비스트리밍) 응답 처리
+6. 서비스 레이어/디렉토리 구조화(app/services)
+7. 테스트 코드 기본 구조 생성(tests/)
+
+## 기술 스택 및 라이브러리
+- FastAPI
+- Uvicorn (ASGI 서버)
+- Python 3.11
+- (테스트용) pytest, httpx 등
+
+## 개발 계획
+1. FastAPI 앱 인스턴스(main.py) 생성 및 실행 환경 구성
+2. API 라우터 분리 및 routes 디렉토리 설계
+3. 루트(/), 헬스체크(/health) 엔드포인트 구현
+4. Chat API 엔드포인트(POST /search) 스켈레톤 구현
+5. 서비스 레이어(app/services) 기본 파일 생성
+6. 테스트 디렉토리(tests/) 및 샘플 테스트 코드 작성
+7. 전체 구조 및 엔드포인트 정상 동작 확인

@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+langgraph
+duckduckgo-search
+streamlit
+gemini-api
+pytest
+httpx
+
+# (옵션) LangSmith
+langsmith
+
+google-generativeai

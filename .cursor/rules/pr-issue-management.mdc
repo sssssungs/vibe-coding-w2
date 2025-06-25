@@ -1,0 +1,24 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# PR 및 이슈 관리 룰
+
+## PR 관리
+- 모든 PR은 main 브랜치 기준으로 생성
+- PR 생성 시 자동 assign: PR 작성자
+- PR 생성 시 자동 label: `pr`, 변경 영역별(`backend`, `frontend`, `docs` 등)
+- PR 생성 시 자동 comment: "PR이 생성되었습니다. 코드 리뷰를 진행해주세요."
+- PR 생성 시 코드 리뷰어 자동 지정: `@randywon` (예시)
+- PR은 최소 1명 이상 리뷰 승인 필요
+
+## 이슈 관리
+- 이슈 생성 시 자동 assign: 이슈 작성자
+- 이슈 생성 시 자동 label: `bug`, `feature`, `question` 등 템플릿 기반
+- 이슈 생성 시 자동 comment: "이슈가 등록되었습니다. 담당자가 확인 후 처리 예정입니다."
+- 이슈는 담당자 지정 후 진행
+
+## 공통
+- 라벨, assign, comment, 리뷰 등은 GitHub Actions 또는 Bot으로 자동화
+- PR/이슈 템플릿 활용 권장

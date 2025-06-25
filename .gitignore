@@ -1,0 +1,24 @@
+# GitHub Actions
+.github/
+
+# Test outputs
+coverage/
+htmlcov/
+*.cover
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Python
+*.pyc
+__pycache__/
+
+# Env
+.env
