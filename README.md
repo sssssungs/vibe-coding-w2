@@ -1,6 +1,6 @@
 # 온라인 쇼핑 최저가 검색 챗봇 Agent
 
-이 브랜치는 PR 테스트용입니다.
+이 브랜치는 PR 테스트22용입니다.
 
 [![테스트 자동화](https://github.com/sssssungs/vibe-coding-w2/actions/workflows/test.yml/badge.svg)](https://github.com/sssssungs/vibe-coding-w2/actions/workflows/test.yml)
 
