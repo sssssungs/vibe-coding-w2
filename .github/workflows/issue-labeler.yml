@@ -24,3 +24,8 @@ jobs:
               repo: context.repo.repo,
               labels
             }); 
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write 

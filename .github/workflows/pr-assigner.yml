@@ -17,4 +17,9 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               assignees: [context.payload.pull_request.user.login]
-            }) 
+            })
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write 

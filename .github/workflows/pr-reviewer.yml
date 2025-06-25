@@ -17,4 +17,9 @@ jobs:
               repo: context.repo.repo,
               pull_number: context.payload.pull_request.number,
               reviewers: ['randywon']
-            }) 
+            })
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write 

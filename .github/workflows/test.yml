@@ -45,4 +45,9 @@ jobs:
           pip install -r requirements.txt
       - name: Run unittest
         run: |
-          find . -name 'test_*.py' | xargs -n 1 python 
+          find . -name 'test_*.py' | xargs -n 1 python
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write 

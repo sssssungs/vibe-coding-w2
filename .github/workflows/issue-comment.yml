@@ -17,4 +17,9 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: '이슈가 등록되었습니다. 담당자가 확인 후 처리 예정입니다.'
-            }) 
+            })
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write 
